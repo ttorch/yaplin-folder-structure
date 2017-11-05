@@ -19,3 +19,6 @@ shell-server@0.3.0            # Server-side component of the `meteor shell` comm
 kadira:flow-router
 kadira:blaze-layout
 blaze-html-templates
+ostrio:flow-router-title
+jquery
+mrt:jquery-ui
