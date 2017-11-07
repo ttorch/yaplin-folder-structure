@@ -1,4 +1,8 @@
 <template name="home">
-    {{> search_filter}}
-    Hello There! This is the home content area.
+    <div class="row">{{> search_filter}}</div>
+    <div class="row">
+        {{#each tours}}
+        {{> tour}}
+        {{/each}}
+    </div>
 </template>
